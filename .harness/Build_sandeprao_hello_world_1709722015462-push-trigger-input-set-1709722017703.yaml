@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sandeprao_hello_world_1709722015462-push-trigger-input-set
+  identifier: Build_sandeprao_hello_world_1709722015462pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_sandeprao_hello_world_1709722015462
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
