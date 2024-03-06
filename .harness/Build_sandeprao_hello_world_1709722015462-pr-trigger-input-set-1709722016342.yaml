@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sandeprao_hello_world_1709722015462-pr-trigger-input-set
+  identifier: Build_sandeprao_hello_world_1709722015462prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_sandeprao_hello_world_1709722015462
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
